@@ -22,6 +22,10 @@
     color: #FFFAFA;
 }
 
+.welcometextp {
+    font-size: 2vh;
+}
+
 .headertext {
     font-size: 2.5vh;
 }
@@ -38,12 +42,16 @@
     font-weight: bold;
 }
 
+.contact {
+    margin-right: 2vh;
+}
+
 html {
     min-height: 100%;
 }
 
 body {
-    background-color: black;
+    background-color: #b37400;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -51,26 +59,40 @@ body {
 }
 
 header {
+    background-color: #b37400;
     display: grid;
     grid-template-columns: 1fr;
     justify-items: end;
-    margin: 0.5vh;
 }
 
 .hero {
     justify-items: center;
     display: grid;
     grid-template-columns: 1fr;
+    background-color: #004d4d;
+}
+
+.welcomemain {
+    margin-left: 2vh;
+}
+
+.welcomeimg {
+    background-color: #e69500;
+}
+
+.welcometext {
+    background-color: #b37400;
+    justify-items: center;
 }
 
 .welcome {
     margin: 0.5vh;
-    justify-items: center;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 footer {
+    background-color: #004d4d;
     justify-items: center;
     display: grid;
     grid-template-columns: 1fr;
