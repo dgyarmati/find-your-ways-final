@@ -65,6 +65,10 @@ header {
     justify-items: end;
 }
 
+.logo {
+    margin: 2vh;
+}
+
 .hero {
     justify-items: center;
     display: grid;
