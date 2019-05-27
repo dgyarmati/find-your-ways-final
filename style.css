@@ -93,6 +93,8 @@ header {
     margin: 0.5vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 footer {
