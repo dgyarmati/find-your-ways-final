@@ -46,11 +46,15 @@ header p {
 }
 
 .hero {
+    background-image: url('assets/images/castle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     justify-items: center;
     align-items: center;
     display: grid;
     grid-template-columns: 1fr;
-    background-color: #004d4d;
+    /*background-color: #004d4d;*/
     width: 100vw;
     height: 95vh;
 }
