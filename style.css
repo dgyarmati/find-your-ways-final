@@ -62,7 +62,8 @@ header p {
 }
 
 .welcome > * {
-    height: 40vh;
+    width: 70vmax;
+    height: 60vmin;
 }
 
 .welcome div {
@@ -73,9 +74,17 @@ header p {
     font-weight: bold;
 }
 
+.welcome section {
+    background-color: #b37400;
+    justify-items: center;
+}
+
 .welcomeimg {
-    background-color: #e69500;
-    background-image: url('assets/images/mbr-1920x1301.jpg');
+    /*background-color: #e69500;*/
+    /*background-image: url('assets/images/dohany1.jpg');*/
+    /*background-size: 60vh 40vh;*/
+    /*background-repeat: no-repeat;*/
+    object-fit: cover;
 }
 
 .welcomecontent p {
@@ -86,11 +95,6 @@ header p {
 
 .footertext {
     font-size: 1.5vh;
-}
-
-.welcome section {
-    background-color: #b37400;
-    justify-items: center;
 }
 
 footer {
