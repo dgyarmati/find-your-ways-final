@@ -17,35 +17,6 @@
     url('assets/fonts/noto-sans-v8-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('assets/fonts/noto-sans-v8-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */ url('assets/fonts/noto-sans-v8-latin-regular.woff') format('woff'), /* Modern Browsers */ url('assets/fonts/noto-sans-v8-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */ url('assets/fonts/noto-sans-v8-latin-regular.svg#NotoSans') format('svg'); /* Legacy iOS */
 }
 
-.subtext {
-    font-family: "Noto Sans", Arial, sans-serif;
-    color: #FFFAFA;
-}
-
-.welcometextp {
-    font-size: 2vh;
-}
-
-.headertext {
-    font-size: 2.5vh;
-}
-
-.footertext {
-    font-size: 1.5vh;
-}
-
-.maintext {
-    font-family: "Fjalla One", Arial, sans-serif;
-    text-shadow: 0 1px 0 black;
-    color: #FFFAFA;
-    font-size: 7vh;
-    font-weight: bold;
-}
-
-.contact {
-    margin-right: 2vh;
-}
-
 html {
     min-height: 100%;
 }
@@ -63,16 +34,13 @@ header {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: end;
+    font-size: 2.5vh;
+    font-family: "Noto Sans", Arial, sans-serif;
+    color: #FFFAFA;
 }
 
-.grid {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(auto-fill, 186px);
-}
-
-.logo {
-    margin: 2vh;
+header p {
+    margin-right: 2vh;
 }
 
 .hero {
@@ -82,18 +50,8 @@ header {
     background-color: #004d4d;
 }
 
-.welcomemain {
-    margin-left: 2vh;
-}
-
-.welcomeimg {
-    background-color: #e69500;
-    background-image: url('assets/images/mbr-1920x1301.jpg');
-}
-
-.welcometext {
-    background-color: #b37400;
-    justify-items: center;
+.hero img {
+    margin: 2vh;
 }
 
 .welcome {
@@ -101,15 +59,38 @@ header {
     display: grid;
     grid-gap: 2vh;
     grid-template-columns: repeat(auto-fit, minmax(50vh, 1fr));
-    /*display: grid;*/
-    /*grid-template-columns: 1fr 1fr;*/
-    /*flex-wrap: wrap;*/
-    /*flex-direction: row;*/
 }
 
 .welcome > * {
-    /*background-color: green;*/
     height: 40vh;
+}
+
+.welcome div {
+    font-family: "Fjalla One", Arial, sans-serif;
+    text-shadow: 0 1px 0 black;
+    color: #FFFAFA;
+    font-size: 7vh;
+    font-weight: bold;
+}
+
+.welcomeimg {
+    background-color: #e69500;
+    background-image: url('assets/images/mbr-1920x1301.jpg');
+}
+
+.welcomecontent p {
+    font-size: 2vh;
+    font-family: "Noto Sans", Arial, sans-serif;
+    color: #FFFAFA;
+}
+
+.footertext {
+    font-size: 1.5vh;
+}
+
+.welcome section {
+    background-color: #b37400;
+    justify-items: center;
 }
 
 footer {
