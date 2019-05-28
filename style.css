@@ -48,10 +48,14 @@ header p {
     display: grid;
     grid-template-columns: 1fr;
     background-color: #004d4d;
+    width: 100vw;
+    height: 100vh;
 }
 
 .hero img {
-    margin: 2vh;
+    margin: 1vh;
+    width: 30vmin;
+    height: auto;
 }
 
 .welcome {
@@ -62,8 +66,8 @@ header p {
 }
 
 .welcome > * {
-    width: 70vmax;
-    height: 60vmin;
+    width: 58vmax;
+    height: auto;
 }
 
 .welcome div {
