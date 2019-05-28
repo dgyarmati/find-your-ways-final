@@ -27,16 +27,18 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     min-height: 100%;
+    margin: 0;
 }
 
 header {
     background-color: #b37400;
     display: grid;
     grid-template-columns: 1fr;
-    justify-items: end;
-    font-size: 2.5vh;
+    justify-items: center;
+    font-size: 2vh;
     font-family: "Noto Sans", Arial, sans-serif;
     color: #FFFAFA;
+    height: 5vh;
 }
 
 header p {
@@ -45,11 +47,12 @@ header p {
 
 .hero {
     justify-items: center;
+    align-items: center;
     display: grid;
     grid-template-columns: 1fr;
     background-color: #004d4d;
     width: 100vw;
-    height: 100vh;
+    height: 95vh;
 }
 
 .hero img {
