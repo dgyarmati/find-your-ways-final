@@ -19,6 +19,7 @@
 
 html {
     min-height: 100%;
+    margin: 0;
 }
 
 body {
@@ -72,6 +73,7 @@ header p {
     grid-template-columns: repeat(auto-fit, minmax(50vh, 1fr));
 }
 
+/*should have breakpoint like wmax for landscape, vmin for not*/
 .welcome > * {
     width: 58vmax;
     height: auto;
@@ -104,12 +106,29 @@ header p {
     color: #FFFAFA;
 }
 
+.tours {
+    font-size: 2vh;
+    font-family: "Noto Sans", Arial, sans-serif;
+    color: #FFFAFA;
+    margin: 0.5vh;
+    justify-items: center;
+    display: grid;
+    grid-gap: 1vh;
+    grid-template-columns: repeat(auto-fit, minmax(30vh, 1fr));
+}
+
+.tours > * {
+    width: 20vmax;
+    height: auto;
+    background-color: #004d4d;
+}
+
 .footertext {
     font-size: 1.5vh;
 }
 
 footer {
-    background-color: #004d4d;
+    background-color: #b37400;
     justify-items: center;
     display: grid;
     grid-template-columns: 1fr;
