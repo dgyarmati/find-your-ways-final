@@ -35,11 +35,12 @@ header {
     background-color: #b37400;
     display: grid;
     grid-template-columns: 1fr;
-    justify-items: center;
+    justify-items: end;
     font-size: 2vh;
     font-family: "Noto Sans", Arial, sans-serif;
     color: #FFFAFA;
     height: 5vh;
+    max-width: 100%;
 }
 
 header p {
@@ -69,14 +70,7 @@ header p {
 .welcome {
     margin: 0.5vh;
     display: grid;
-    grid-gap: 2vh;
-    grid-template-columns: repeat(auto-fit, minmax(50vh, 1fr));
-}
-
-/*should have breakpoint like wmax for landscape, vmin for not*/
-.welcome > * {
-    width: 58vmax;
-    height: auto;
+    grid-template-columns: 1fr 1fr;
 }
 
 .welcome div {
@@ -97,7 +91,8 @@ header p {
     /*background-image: url('assets/images/dohany1.jpg');*/
     /*background-size: 60vh 40vh;*/
     /*background-repeat: no-repeat;*/
-    object-fit: cover;
+    width: 100%;
+    /*object-fit: cover;*/
 }
 
 .welcomecontent p {
