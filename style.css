@@ -112,8 +112,10 @@ header p {
     background-color: #004d4d;
 }
 
-.footertext {
+footer {
     font-size: 1.5vh;
+    font-family: "Noto Sans", Arial, sans-serif;
+    color: #FFFAFA;
 }
 
 footer {
