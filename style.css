@@ -56,7 +56,6 @@ header p {
     align-items: center;
     display: grid;
     grid-template-columns: 1fr;
-    /*background-color: #004d4d;*/
     width: 100vw;
     height: 95vh;
 }
@@ -95,21 +94,42 @@ header p {
     color: #FFFAFA;
 }
 
+.mid {
+    font-size: 3vh;
+    font-family: "Noto Sans", Arial, sans-serif;
+    color: #FFFAFA;
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    justify-items: center;
+}
+
 .tours {
     font-size: 2vh;
     font-family: "Noto Sans", Arial, sans-serif;
     color: #FFFAFA;
-    margin: 0.5vh;
-    justify-items: center;
     display: grid;
-    grid-gap: 1vh;
-    grid-template-columns: repeat(auto-fit, minmax(30vh, 1fr));
+    max-width: 100%;
 }
 
-.tours > * {
-    width: 20vmax;
-    height: auto;
-    background-color: #004d4d;
+.tours div {
+    background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+    ), url('assets/images/kid.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    align-items: center;
+    justify-items: left;
+    height: 30vmax;
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+}
+
+.tours p {
+    margin-left: 2vmax;
 }
 
 footer {
