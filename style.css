@@ -68,7 +68,6 @@ header p {
 }
 
 .welcome {
-    margin: 0.5vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -87,12 +86,7 @@ header p {
 }
 
 .welcomeimg {
-    /*background-color: #e69500;*/
-    /*background-image: url('assets/images/dohany1.jpg');*/
-    /*background-size: 60vh 40vh;*/
-    /*background-repeat: no-repeat;*/
     width: 100%;
-    /*object-fit: cover;*/
 }
 
 .welcomecontent p {
@@ -132,4 +126,12 @@ footer {
 
 a {
     color: inherit;
+}
+
+@media screen and (min-width: 320px) and (max-width: 560px) {
+    .welcome {
+        display: flex;
+        flex-direction: column;
+        /*grid-template-columns: 1fr;*/
+    }
 }
