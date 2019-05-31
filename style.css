@@ -16,11 +16,11 @@ header {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
-    font-size: 2vmax;
+    font-size: 2vh;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #000000;
-    height: 5vmax;
+    height: 5vh;
     max-width: 100%;
 }
 
@@ -38,7 +38,7 @@ header p {
     display: grid;
     grid-template-columns: 1fr;
     width: 100%;
-    height: 95vmax;
+    height: 95vh;
 }
 
 .hero img {
