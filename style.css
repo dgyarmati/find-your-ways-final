@@ -212,15 +212,16 @@ header p {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 100%;
+    width: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    opacity: 1;
     text-align: center;
     display: block;
     font-size: 3vh;
     font-family: "Noto Sans", Arial, sans-serif;
     color: #FFFAFA;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 1;
 }
 
 .wrapper:hover .kidimage {
