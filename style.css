@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'Futura Lt BT Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura Lt BT Light'), url('assets/fonts/futural.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Futura Md BT Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura Md BT Bold'), url('assets/fonts/futurab.woff') format('woff');
+}
+
 html {
     min-height: 100%;
     max-width: 100%;
@@ -17,7 +31,7 @@ header {
     grid-template-columns: 1fr;
     justify-items: center;
     font-size: 2vh;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Futura Md BT Bold', sans-serif;
     font-weight: 400;
     color: #000000;
     height: 5vh;
@@ -53,8 +67,8 @@ header p {
 }
 
 .welcome div {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-family: 'Futura Md BT Bold', sans-serif;
+    /*font-weight: 400;*/
     text-shadow: 0 1px 0 black;
     color: #000000;
     font-size: 4vmax;
@@ -73,14 +87,14 @@ header p {
 
 .welcomecontent p {
     font-size: 2vmax;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-family: 'Futura Lt BT Light', sans-serif;
+    /*font-weight: 400;*/
     color: #000000;
 }
 
 .tourstitle {
     font-size: 3vmax;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Futura Md BT Bold', sans-serif;
     font-weight: 400;
     color: #000000;
     display: grid;
@@ -125,8 +139,8 @@ header p {
     text-align: center;
     display: block;
     font-size: 3vmax;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-family: 'Futura Md BT Bold', sans-serif;
+    /*font-weight: 400;*/
     color: #FFFAFA;
     background: rgba(0, 0, 0, 0.5);
     opacity: 1;
@@ -149,15 +163,15 @@ header p {
     text-justify: inter-word;
     margin: 5vmax;
     font-size: 2vmax;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    font-family: 'Futura Md BT Bold', sans-serif;
+    /*font-weight: 500;*/
     color: #000000;
 }
 
 footer {
     font-size: 1.5vmax;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-family: 'Futura Md BT Bold', sans-serif;
+    /*font-weight: 400;*/
     color: #FFFAFA;
 }
 
