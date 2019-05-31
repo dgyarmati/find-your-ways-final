@@ -23,7 +23,7 @@ html {
 }
 
 body {
-    background-color: #b37400;
+    background-color: #FAAB32;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -32,14 +32,14 @@ body {
 }
 
 header {
-    background-color: #b37400;
+    background-color: #FAAB32;
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
-    font-size: 2vh;
+    font-size: 2vmax;
     font-family: "Noto Sans", Arial, sans-serif;
-    color: #FFFAFA;
-    height: 5vh;
+    color: #000000;
+    height: 5vmax;
     max-width: 100%;
 }
 
@@ -74,13 +74,13 @@ header p {
 .welcome div {
     font-family: "Fjalla One", Arial, sans-serif;
     text-shadow: 0 1px 0 black;
-    color: #FFFAFA;
+    color: #000000;
     font-size: 7vh;
     font-weight: bold;
 }
 
 .welcome section {
-    background-color: #b37400;
+    background-color: #FAAB32;
     justify-items: center;
 }
 
@@ -91,29 +91,18 @@ header p {
 .welcomecontent p {
     font-size: 2vh;
     font-family: "Noto Sans", Arial, sans-serif;
-    color: #FFFAFA;
+    color: #000000;
 }
 
-.mid {
-    font-size: 3vh;
+.tourstitle {
+    font-size: 3vmax;
     font-family: "Noto Sans", Arial, sans-serif;
-    color: #FFFAFA;
+    color: #000000;
     display: grid;
     grid-template-columns: 1fr;
     max-width: 100%;
     justify-items: center;
-}
-
-#example {
-    background-image: url('assets/images/kid.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    width: 100%;
-    min-height: 40vh;
-    display: inline-block;
-    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
-    position: relative;
+    background-color: #C4D9D3;
 }
 
 .tourcard {
@@ -150,7 +139,7 @@ header p {
     -ms-transform: translate(-50%, -50%);
     text-align: center;
     display: block;
-    font-size: 3vh;
+    font-size: 3vmax;
     font-family: "Noto Sans", Arial, sans-serif;
     color: #FFFAFA;
     background: rgba(0, 0, 0, 0.5);
@@ -175,21 +164,22 @@ header p {
     margin: 5vh;
     font-size: 2vh;
     font-family: "Noto Sans", Arial, sans-serif;
-    color: #FFFAFA;
+    color: #000000;
 }
 
 footer {
-    font-size: 1.5vh;
+    font-size: 1.5vmax;
     font-family: "Noto Sans", Arial, sans-serif;
     color: #FFFAFA;
 }
 
 footer {
-    background-color: #b37400;
+    background-color: #FAAB32;
     justify-items: center;
     display: grid;
     grid-template-columns: 1fr;
     margin: 0.5vh;
+    color: #000000;
 }
 
 a {
