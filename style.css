@@ -84,6 +84,14 @@ header p {
     height: 95vh;
 }
 
+.herotitle {
+    cursor: pointer;
+}
+
+input {
+    display: none;
+}
+
 .hero img {
     margin: 1vmax;
     width: 30vmin;
@@ -149,6 +157,7 @@ header p {
 
 .tourcard {
     position: relative;
+    cursor: pointer;
 }
 
 .tourimage {
@@ -217,6 +226,10 @@ header p {
     display: grid;
     grid-template-columns: 1fr;
     font-family: 'Futura Md BT Bold', sans-serif;
+}
+
+.homelink {
+    text-decoration: none;
 }
 
 footer {
