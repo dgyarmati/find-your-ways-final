@@ -236,6 +236,13 @@ input {
     text-decoration: none;
 }
 
+.social-link {
+    height: 4vmax;
+    width: auto;
+    float: left;
+    padding-right: 2vmax;
+}
+
 .up {
     background-color: #C4D9D3;
     font-size: 1vmax;
