@@ -52,16 +52,12 @@ li {
 li a {
     display: block;
     text-align: center;
-    padding: 14px 16px;
+    padding: 2vh 2vh;
     text-decoration: none;
     color: #000000;
 }
 
 li a:hover {
-    background-color: #C4D9D3;
-}
-
-.active {
     background-color: #C4D9D3;
 }
 
@@ -214,10 +210,12 @@ header p {
     color: #000000;
 }
 
-footer {
-    font-size: 1.5vmax;
-    font-family: 'Futura Md BT Bold', sans-serif;
-    color: #FFFAFA;
+.up {
+    background-color: #C4D9D3;
+    font-size: 2vmax;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 footer {
@@ -227,6 +225,8 @@ footer {
     grid-template-columns: 1fr;
     margin: 0.5vmax;
     color: #000000;
+    font-size: 1vmax;
+    font-family: 'Futura Md BT Bold', sans-serif;
 }
 
 a {
