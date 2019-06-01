@@ -37,7 +37,7 @@ header {
     max-width: 100%;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -45,11 +45,11 @@ ul {
     background-color: #FAAB32;
 }
 
-li {
+nav li {
     float: left;
 }
 
-li a {
+nav li a {
     display: block;
     text-align: center;
     padding: 2vh 2vh;
@@ -57,7 +57,7 @@ li a {
     color: #000000;
 }
 
-li a:hover {
+nav li a:hover {
     background-color: #C4D9D3;
 }
 
@@ -217,6 +217,23 @@ input {
     font-size: 2vmax;
     font-family: 'Futura Md BT Bold', sans-serif;
     color: #000000;
+}
+
+.tourtext ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tourtext li {
+    font-size: 2vmax;
+    padding-bottom: 2vmax;
+}
+
+.tourtext a {
+    font-family: 'Futura Md BT Bold', sans-serif;
+    font-size: 2vmax;
+    text-decoration: none;
 }
 
 .up {
