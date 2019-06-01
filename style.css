@@ -295,3 +295,18 @@ a {
         font-size: 1.3vmax;
     }
 }
+
+@media screen and (min-width: 1900px) {
+    .tours {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .tourtext {
+        font-size: 1.3vmax;
+    }
+
+    .tourimage {
+        height: 90vmax;
+    }
+}
