@@ -29,12 +29,46 @@ header {
     background-color: #FAAB32;
     display: grid;
     grid-template-columns: 1fr;
-    justify-items: center;
+    align-items: end;
     font-size: 2vh;
     font-family: 'Futura Md BT Bold', sans-serif;
     color: #000000;
     height: 5vh;
     max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FAAB32;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #000000;
+}
+
+li a:hover {
+    background-color: #C4D9D3;
+}
+
+.active {
+    background-color: #C4D9D3;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10vw, 1fr));
+    align-items: center;
 }
 
 header p {
