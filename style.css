@@ -81,15 +81,15 @@ header p {
     grid-template-columns: 1fr 1fr;
 }
 
-.welcome div {
+.welcomecontentwrapper {
+    background-color: #FAAB32;
+    justify-items: center;
+}
+
+.welcomecontent {
     font-family: 'Futura Md BT Bold', sans-serif;
     color: #000000;
     font-size: 4vmax;
-}
-
-.welcome section {
-    background-color: #FAAB32;
-    justify-items: center;
 }
 
 .welcomeimg {
@@ -106,7 +106,7 @@ header p {
     color: #000000;
 }
 
-.tourstitle {
+.infoseparator {
     font-size: 3vmax;
     font-family: 'Futura Md BT Bold', sans-serif;
     color: #000000;
