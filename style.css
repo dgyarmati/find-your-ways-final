@@ -65,15 +65,15 @@ header p {
     display: inline-block;
 }
 
-.hero div p {
+.hero div h1 {
     text-align: center;
     display: block;
-    font-size: 3.5vmax;
+    font-size: 4vmax;
+    padding: 2vmax;
     font-family: 'Futura Md BT Bold', sans-serif;
     color: #FFFAFA;
     background: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(2px);
-    opacity: 1;
+    background-size: 100px;
 }
 
 .welcome {
