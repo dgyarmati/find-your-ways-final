@@ -212,10 +212,11 @@ header p {
 
 .up {
     background-color: #C4D9D3;
-    font-size: 2vmax;
+    font-size: 1vmax;
     justify-items: center;
     display: grid;
     grid-template-columns: 1fr;
+    font-family: 'Futura Md BT Bold', sans-serif;
 }
 
 footer {
@@ -225,7 +226,7 @@ footer {
     grid-template-columns: 1fr;
     margin: 0.5vmax;
     color: #000000;
-    font-size: 1vmax;
+    font-size: 0.7vmax;
     font-family: 'Futura Md BT Bold', sans-serif;
 }
 
