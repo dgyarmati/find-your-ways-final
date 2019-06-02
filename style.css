@@ -96,6 +96,7 @@ input {
     margin: 1vmax;
     width: 30vmin;
     height: auto;
+    cursor: pointer;
 }
 
 .hero div {
@@ -155,6 +156,14 @@ input {
     background-color: #C4D9D3;
 }
 
+.even {
+    background-color: #C4D9D3;
+}
+
+.odd {
+    background-color: #FAAB32;
+}
+
 .tourcard {
     position: relative;
     cursor: pointer;
@@ -180,6 +189,7 @@ input {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+    /*background-color: #C4D9D3;*/
 }
 
 .tourtitle {
