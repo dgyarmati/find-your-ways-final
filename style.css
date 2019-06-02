@@ -95,12 +95,6 @@ header p {
     top: 0;
 }
 
-#slide {
-    transition: background 1s ease-in-out;
-    -webkit-transition: background 1s linear;
-    -moz-transition: background 1s linear;
-}
-
 .herotitle {
     cursor: pointer;
 }
