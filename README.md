@@ -1,3 +1,3 @@
-A static, responsive website for a tour agency. Built as a study project. 
+A static, responsive website for a tour agency.
 
 https://findyourwaydemo.firebaseapp.com/
